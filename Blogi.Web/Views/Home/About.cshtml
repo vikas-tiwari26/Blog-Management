@@ -1,0 +1,155 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        .team-image, .about-image {
+            width: 100px; /* Adjust the width as needed */
+            height: 100px; /* Adjust the height as needed */
+            border-radius: 50%; /* Makes the image circular */
+            object-fit: cover; /* Ensures the image covers the entire area */
+            margin: auto; /* Centers the image */
+            display: block; /* Ensures the image is a block element */
+        }
+
+        .team_section .box, .about_section .box {
+            text-align: center; /* Center-aligns the content */
+        }
+
+        .layout_padding {
+            padding: 60px 0; /* Adjust the padding as needed */
+        }
+
+        .heading_container {
+            text-align: center; /* Center-aligns the heading */
+            margin-bottom: 40px; /* Adds margin below the heading */
+        }
+    </style>
+</head>
+<body>
+    <section class="about_section layout_padding">
+        <div class="container">
+            <div class="heading_container">
+                <h2>About Us</h2>
+            </div>
+            <div class="about_container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box">
+                            <div class="img-box">
+                                <img class="about-image" src="/images/quality.jpg" alt="Quality Content">
+                            </div>
+                            <div class="detail-box">
+                                <h5>QUALITY CONTENT</h5>
+                                <p>
+                                    Dive into our top-notch articles and blog posts, crafted with precision and care. From in-depth analysis to engaging stories, our content is designed to inform, inspire, and entertain.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box">
+                            <div class="img-box">
+                                <img class="about-image" src="/images/ExpertAdvice.png" alt="Expert Advice">
+                            </div>
+                            <div class="detail-box">
+                                <h5>EXPERT ADVICE</h5>
+                                <p>
+                                    Get personalized insights and advice from industry experts. Our blog offers tips and guidance on a wide range of topics to help you navigate your journey with confidence.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box">
+                            <div class="img-box">
+                                <img class="about-image" src="/images/HealthyLifestyle.jpg" alt="Healthy Living">
+                            </div>
+                            <div class="detail-box">
+                                <h5>HEALTHY LIVING</h5>
+                                <p>
+                                    Discover the keys to a healthy lifestyle with our comprehensive guides and articles. From balanced diet tips to fitness routines, we provide the information you need to lead a healthier, happier life.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box">
+                            <div class="img-box">
+                                <img class="about-image" src="/images/lifestyle.jpg" alt="Lifestyle Tips">
+                            </div>
+                            <div class="detail-box">
+                                <h5>LIFESTYLE TIPS</h5>
+                                <p>
+                                    Enhance your daily routine with our practical lifestyle tips. From productivity hacks to stress management, our blog covers a range of topics to improve your quality of life.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p style="margin-top: 50px;">
+                    At BlogName, we believe that knowledge is a journey, not a destination. Our platform is designed to help you achieve your personal and professional goals, whether it's staying informed, gaining new skills, or simply finding inspiration. With our comprehensive articles, personalized advice, and supportive community, you'll have everything you need to succeed. Our team of dedicated writers and experts are committed to helping you reach your full potential, and our cutting-edge technology ensures that you'll always have access to the latest trends and information. Join the BlogName community today and start achieving the knowledge and growth you deserve!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="team_section layout_padding">
+        <div class="container">
+            <div class="heading_container">
+                <h2>OUR TEAM</h2>
+            </div>
+            <div class="team_container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box">
+                            <div class="img-box">
+                                <img class="team-image" src="/images/u-4.png.jpg" alt="Rutuja Katekhaye">
+                            </div>
+                            <div class="detail-box">
+                                <h5>Rutuja Katekhaye</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box">
+                            <div class="img-box">
+                                <img class="team-image" src="/images/u-1.png" alt="Vikas Tiwari">
+                            </div>
+                            <div class="detail-box">
+                                <h5>Vikas Tiwari</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box">
+                            <div class="img-box">
+                                <img class="team-image" src="/images/u-2.png" alt="Varsha Wagh">
+                            </div>
+                            <div class="detail-box">
+                                <h5>Varsha Wagh</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box">
+                            <div class="img-box">
+                                <img class="team-image" src="/images/u-3.png" alt="Hares Saikh">
+                            </div>
+                            <div class="detail-box">
+                                <h5>Hares Saikh</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
